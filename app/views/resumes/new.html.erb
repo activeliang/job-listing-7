@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>投资履历到<%= @job.title %></h1>
+
+  <%= simple_form_for [@job,@resume] do |f| %>
+  <%= f.input :content %>
+  <%= f.input :attachment %>
+  <%= f.submit "Submit" %>
+  <% end  %>
+
+</div>
