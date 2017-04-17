@@ -16,3 +16,18 @@
 @import "bootstrap";
 @import "bootstrap-sprockets";
 @import "font-awesome";
+
+
+
+
+
+
+// 以下是页脚
+#fa-footer {
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 100%;
+
+  padding: 30px;
+}
