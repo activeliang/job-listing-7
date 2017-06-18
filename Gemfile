@@ -36,6 +36,11 @@ gem 'simple_form'
 gem 'devise'
 gem 'font-awesome-rails'
 gem 'carrierwave'
+gem 'rqrcode'
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
+# 搜索
+gem 'ransack'
 
 group :production do
   gem 'pg'
